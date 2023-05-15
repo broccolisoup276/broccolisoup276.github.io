@@ -1,0 +1,177 @@
+/*
+Color Scheme:
+Red: #911313
+Orange: #EC9C46
+Light Cream: #FAF7EF
+Cream: #F4EBD9
+Blue: #414770
+Dark Blue: #1B264F
+Black: #0A0F1F
+*/
+
+/*
+Sources:
+Margins, borders, text shadow: w3 schools
+Fonts: Google
+Button cursor: w3 schools
+Footer (fixed bottom): bootstrap
+*/
+
+footer {
+    color: #FAF7EF;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cream {
+    background-color: #F4EBD9;
+}
+.title {
+    font-family: 'Rubik 80s Fade';
+    font-size: 100px;
+    color: #911313;
+    text-align: center;
+    text-shadow: 3px 3px 1px #701616;
+    padding: 10rem 1rem;
+}
+
+h2 {
+    font-family: 'Rubik Maze';
+    font-size: 100px;
+    color: #EC9C46;
+    text-align: center;
+    text-shadow: 3px 3px 1px #701616;
+    background-color: #1B264F;
+    margin-bottom: 2rem;
+    padding: 14rem 1rem;
+}
+
+h4 {
+    font-family: 'Rubik Maze';
+    font-size: 100px;
+    color: #911313;
+    text-align: center;
+    text-shadow: 3px 3px 1px #EC9C46;
+    margin-bottom: 2rem;
+    padding: 14rem 1rem;
+}
+
+a {
+    color: #F4EBD9;
+    text-decoration: none;
+}
+
+/* From w3 schools*/
+.centered {
+    position: absolute;
+    top: 50%;
+    /*
+    transform: translate(100%, -50%);
+    */
+  }
+
+.color1 {
+    background-color: #414770;
+    margin-bottom: 2rem;
+    padding: 10rem 1rem;
+}
+
+.color2 {
+    background-color: #1B264F;
+}
+
+.black {
+    background-color: #0A0F1F
+}
+
+.header {
+    font-family: 'Libre Barcode 39 Extended Text';
+    font-size: 30px;
+    color: #F4EBD9;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-shadow: 2px 2px 10px #911313;
+}
+
+.nav {
+    color: #FAF7EF;
+    font-family: 'tilt prism';
+    font-size: 35px;
+}
+
+a:hover {
+    color: #911313;
+}
+
+h3 a:hover {
+    color: #414770;
+    text-shadow: 2px 2px 10px #1B264F;
+}
+
+button {
+    font-family: 'Pirata one';
+    font-size: 30px;
+    color: #EC9C46;
+    text-align: center;
+    text-shadow: 3px 3px 1px #701616;
+    background-color: #414770;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#count {
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    color: #F4EBD9;
+}
+
+/*https://www.w3schools.com/howto/howto_css_center-list.asp for centering list*/
+ul {
+    font-family: serif;
+    background-color: #414770;
+    color: #F4EBD9;
+    font-size: 20px;
+    border-radius: 30px;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+ol {
+    font-family: serif;
+    background-color: #414770;
+    color: #F4EBD9;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+}
+
+.blue {
+    background-color: #414770;
+}
+
+
+.sidetext {
+    font-family: serif;
+    color: #EC9C46;
+    font-size: 20px;
+    background-color: #1B264F;
+    padding: 16rem 10rem;
+    border-radius: 30px;
+}
+
+.sidetext2 {
+    font-family: serif;
+    color: #EC9C46;
+    font-size: 20px;
+    background-color: #1B264F;
+    padding: 12rem 10rem;
+    border-radius: 30px;
+}
